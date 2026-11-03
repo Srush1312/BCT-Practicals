@@ -1,0 +1,19 @@
+How to execute in Remix
+1. Create Bank.sol.
+2. Paste the code.
+3. Compile using Solidity 0.8.20.
+4. Select MetaMask → Sepolia.
+5. Deploy the contract.
+6. Set the Remix Value field to 0.005 ether.
+7. Click deposit() → Confirm in MetaMask.
+8. Click showBalance() → Call.
+9. Enter 1000000000000000 in withdraw() (0.001 ETH).
+10. Set Value back to 0 wei.
+11. Click withdraw() → Confirm.
+12. Call showBalance() again.
+
+Expected balance after withdrawal:
+0.004 ETH
+4000000000000000 Wei
+
+All the best
