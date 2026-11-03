@@ -1,0 +1,18 @@
+Procedure
+1. Open Remix IDE (https://remix.ethereum.org).
+2. Create a new file named Student.sol.
+3. Write the Solidity program using struct, dynamic array, and fallback() function.
+4. Compile the contract using Solidity compiler version 0.8.20.
+5. Open Deploy & Run Transactions.
+6. Select Injected Provider – MetaMask and connect to the Sepolia test network.
+7. Select StudentData and click Deploy. Confirm the transaction in MetaMask.
+8. Under Deployed Contracts, expand StudentData.
+9. Use addStudent() to enter student ID, name and age. For example:
+   - Student 1: 1, Triveni, 21
+   - Student 2: 2, Riya, 20
+   - Student 3: 3, Sneha, 21
+10. Click Transact and confirm each transaction.
+11. Use students(0), students(1) and students(2) to view student details.
+12. Click getStudentCount() to display the total number of students.
+13. Test the fallback function by sending a transaction with unmatched calldata (0x12345678) and a small Ether value (e.g. 0.001 ETH).
+14. Observe and record the gas used and transaction fees for deployment, adding students and fallback execution.
